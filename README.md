@@ -20,30 +20,33 @@ This is the completed project of the challenge outline: "Tax Calculator"
 
 ## Images
 
-![Information Container on hover](./images/informationContainer.png)
+!Information Container on hover
 *Caption: Information Container on hover*
 
-![No error when number is shown](./images/noErrorWithOnlyNumbers.png)
+!No error when number is shown
 *Caption: No error when number is shown*
 
-![Error with character](./images//errorWithCharacter.png)
+!Error with character
 *Caption: Error with character*
 
-![Error handling in all input fields](./images/allInputError.png)
+!Error handling in all input fields
 *Caption: Error handling in all input fields*
 
-![No Age Value Error Handling](./images/noAgeValue.png)
+!No Age Value Error Handling
 *Caption: No Age Value Error Handling*
 
-![Matching given Test Case](./images/result.png)
+!Matching given Test Case
 *Caption: Matching given Test Case*
 
 ## Individual Edge Cases
 
-![No negative value](./images/noNegativeValue.png)
+!No negative value
 *Caption: No negative value*
 
-![No Value Added, means the value = 0](./images/noValueAdded.png)
+!No Value Added, means the value = 0
 *Caption: No Value Added, means the value = 0*
 
-![Result of no value added](./images/noValueResult.png)
+!Result of no value added
+*Caption: Result of no value added*
+
+### Hostel Web App URL: <https://fyle-task.pages.dev/>
