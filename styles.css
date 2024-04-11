@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+.d-none {
+  display: none;
+}
+main {
+  width: 40%;
+  margin: 100px auto;
+  border: 1px solid black;
+  padding: 100px 16px 16px;
+}
+form {
+  width: 100%;
+}
+.label-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+.label-container > svg:hover + .explanation-block {
+  display: unset;
+}
+.explanation-block {
+  display: none;
+  position: absolute;
+  width: 40%;
+  background-color: darkgray;
+  color: white;
+  padding: 8px;
+}
+#deductionsAmt {
+  right: 26%;
+  top: -100px;
+}
+#deductionsTriangle {
+  left: 11%;
+  bottom: -7px;
+}
+#ageVal {
+  right: 46%;
+  top: -60px;
+}
+#agevalTriangle {
+  left: 14%;
+  bottom: -7px;
+}
+#extraInc {
+  right: 43%;
+  top: -100px;
+}
+#extraIncTriangle {
+  left: 14%;
+  bottom: -8px;
+}
+#gross {
+  right: 33%;
+  top: -80px;
+}
+#grossTriangle {
+  left: 10%;
+  bottom: -8px;
+}
+.input-container {
+  position: relative;
+}
+.input-container,
+.age-group-input-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.input-container > input,
+.age-group-input-container > select {
+  width: 100%;
+  padding: 12px 0 12px 12px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+.input-container > input:focus,
+.age-group-input-container > select:focus {
+  border: 1px solid lightblue;
+  outline: 1px solid lightblue;
+}
+.error-symbol {
+  position: relative;
+}
+.input-container > svg {
+  position: absolute;
+  right: 3%;
+  top: 30%;
+}
+.input-container > svg:hover + .error-message {
+  display: block;
+}
+.error-message {
+  display: none;
+  position: absolute;
+  top: -80%;
+  right: -25%;
+  background-color: darkgray;
+  padding: 8px;
+}
+.triangle {
+  position: inherit;
+  bottom: -25%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid darkgray;
+}
+#ageError {
+  margin: 10px 0;
+  font-size: 14px;
+  color: red;
+}
+button {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: rgba(137, 43, 226, 0.556);
+}
+#taxContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 50%;
+  border: 1px solid;
+  padding: 16px;
+  text-align: center;
+}
+#closeBtn {
+  width: 20%;
+}
