@@ -42,3 +42,8 @@ This is the completed project of the challenge outline: "Tax Calculator"
 
 ![No negative value](./images/noNegativeValue.png)
 *Caption: No negative value*
+
+![No Value Added, means the value = 0](./images/noValueAdded.png)
+*Caption: No Value Added, means the value = 0*
+
+![Result of no value added](./images/noValueResult.png)
