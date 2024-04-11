@@ -73,6 +73,7 @@ function calculateIncome(e) {
   const ageValue = age.value;
   if (ageValue === "empty") {
     ageError.style.display = "unset";
+    return;
   } else {
     ageError.style.display = "none";
   }
