@@ -21,6 +21,24 @@ This is the completed project of the challenge outline: "Tax Calculator"
 ## Images
 
 ![Information Container on hover](./images/informationContainer.png)
+*Caption: Information Container on hover*
+
 ![No error when number is shown](./images/noErrorWithOnlyNumbers.png)
-![Error with character](./errorWithCharacter.png)
+*Caption: No error when number is shown*
+
+![Error with character](./images//errorWithCharacter.png)
+*Caption: Error with character*
+
 ![Error handling in all input fields](./images/allInputError.png)
+*Caption: Error handling in all input fields*
+
+![No Age Value Error Handling](./images/noAgeValue.png)
+*Caption: No Age Value Error Handling*
+
+![Matching given Test Case](./images/result.png)
+*Caption: Matching given Test Case*
+
+## Individual Edge Cases
+
+![No negative value](./images/noNegativeValue.png)
+*Caption: No negative value*

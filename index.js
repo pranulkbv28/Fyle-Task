@@ -29,6 +29,9 @@ function handleInput(inputField, errorSymbol) {
     } else {
       errorSymbol.style.display = "none";
     }
+    if (currValue === "") {
+      return (inputField.value = 0);
+    }
     inputField.value = currValue;
     console.log(inputField.value);
   };
